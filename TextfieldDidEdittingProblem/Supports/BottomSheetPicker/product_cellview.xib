@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectProductViewController" customModule="Rupi" customModuleProvider="target">
+            <connections>
+                <outlet property="cell" destination="f9z-Bb-F4t" id="JOM-IO-Oql"/>
+                <outlet property="mCellView" destination="f9z-Bb-F4t" id="g9h-hm-Koo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="76" id="f9z-Bb-F4t">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="53"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="f9z-Bb-F4t" id="Sle-92-agC">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="53"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ovv-F7-PxJ">
+                        <rect key="frame" x="12" y="16" width="382" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ovv-F7-PxJ" secondAttribute="trailing" constant="20" id="152-nm-6VT"/>
+                    <constraint firstAttribute="bottom" secondItem="ovv-F7-PxJ" secondAttribute="bottom" constant="16" id="MbO-P1-23O"/>
+                    <constraint firstItem="ovv-F7-PxJ" firstAttribute="top" secondItem="Sle-92-agC" secondAttribute="top" constant="16" id="WUx-0j-15K"/>
+                    <constraint firstItem="ovv-F7-PxJ" firstAttribute="leading" secondItem="Sle-92-agC" secondAttribute="leading" constant="12" id="Wn9-9r-h0t"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-62.318840579710148" y="92.075892857142847"/>
+        </tableViewCell>
+    </objects>
+</document>

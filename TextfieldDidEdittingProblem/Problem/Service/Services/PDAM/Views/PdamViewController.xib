@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PdamViewController" customModule="TextfieldDidEdittingProblem" customModuleProvider="target">
+            <connections>
+                <outlet property="cekTagihanButton" destination="K8c-8p-c0u" id="Age-cJ-29Y"/>
+                <outlet property="nomorPelangganField" destination="ZqL-vy-R96" id="52e-bB-Iys"/>
+                <outlet property="pilihWilayahPdamField" destination="uzL-Mh-gdA" id="6MR-KY-bg8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZqL-vy-R96" customClass="MDCFilledTextField">
+                    <rect key="frame" x="16" y="8" width="382" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="S33-J2-EtZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="addDoneButton" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uzL-Mh-gdA" customClass="MDCFilledTextField">
+                    <rect key="frame" x="16" y="95" width="382" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="DLE-Hw-XlF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="addDoneButton" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K8c-8p-c0u" customClass="MDCButton">
+                    <rect key="frame" x="16" y="809" width="382" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="RM9-x1-uzJ"/>
+                    </constraints>
+                    <state key="normal" title="CEK TAGIHAN"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ZqL-vy-R96" secondAttribute="trailing" constant="16" id="0Va-kV-oSO"/>
+                <constraint firstItem="ZqL-vy-R96" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="34O-ck-new"/>
+                <constraint firstAttribute="trailing" secondItem="uzL-Mh-gdA" secondAttribute="trailing" constant="16" id="Cod-i6-tJa"/>
+                <constraint firstItem="ZqL-vy-R96" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="JVg-Mr-PPe"/>
+                <constraint firstItem="K8c-8p-c0u" firstAttribute="top" relation="greaterThanOrEqual" secondItem="uzL-Mh-gdA" secondAttribute="bottom" constant="32" id="Tte-2q-oqw"/>
+                <constraint firstItem="uzL-Mh-gdA" firstAttribute="top" secondItem="ZqL-vy-R96" secondAttribute="bottom" constant="32" id="hq5-hI-u4x"/>
+                <constraint firstAttribute="bottom" secondItem="K8c-8p-c0u" secondAttribute="bottom" constant="32" id="ifc-P5-Dnq"/>
+                <constraint firstAttribute="trailing" secondItem="K8c-8p-c0u" secondAttribute="trailing" constant="16" id="me3-0L-8m8"/>
+                <constraint firstItem="uzL-Mh-gdA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="oE7-rv-GlW"/>
+                <constraint firstItem="K8c-8p-c0u" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="wgh-le-1wm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="70" y="71"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

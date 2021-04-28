@@ -1,0 +1,6 @@
+framework module Pods_TextfieldDidEdittingProblem {
+  umbrella header "Pods-TextfieldDidEdittingProblem-umbrella.h"
+
+  export *
+  module * { export * }
+}
