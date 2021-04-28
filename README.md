@@ -9,5 +9,7 @@ The concept is not that hard.
 
 A Transaction Container, contains a Service. So the TransactionCoordinator will choose what kind of sub service that you want to choose (in this case PPOB) and will start the PPOB Coordinator that will fill the container with desired service.
 
+Find the `AppCoordinator` and change the Marked line to see other layout that experiences the similar problem.
+
 Feel free to contact me trough StackOverflow if you need more explanation.
 https://stackoverflow.com/questions/67263289/uitextfield-editingdidbegin-triggered-twice-on-ios-14-4?noredirect=1#comment118925613_67263289
